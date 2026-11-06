@@ -1,0 +1,48 @@
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+ 
+.nav ul li {
+  float: left;
+}
+ 
+.nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+.nav ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+ 
+.nav ul li a.active {
+  background-color: #04AA6D;
+}
+
+body {
+
+  background-image: url("https://wallpaperbat.com/img/138390491-toyota-4runner-2025.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-color: #333333;
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+

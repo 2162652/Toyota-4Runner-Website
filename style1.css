@@ -1,0 +1,53 @@
+
+
+
+body {
+    text-align: center;
+    background: url('https://uytmxqkbzorxznluvhpe.supabase.co/storage/v1/object/public/media-assets/tustin-toyota/2026-06/raw_tustin-4runner-interior-specs.webp') no-repeat center center / cover fixed;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Offsets the text's own width/height */
+  
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.clickable-button {
+  /* Layout & Sizing */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  
+  /* Colors & Aesthetic */
+  background-color: #007bff; /* Primary Blue */
+  color: #ffffff;
+  cursor: pointer; /* Changes the mouse cursor to a hand pointer */
+  
+  /* Smooth transitions for hover effects */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Hover effect (when the mouse is over the button) */
+.clickable-button:hover {
+  background-color: #0056b3; /* Darker Blue */
+}
+
+/* Active effect (when the button is being clicked) */
+.clickable-button:active {
+  transform: scale(0.98); /* Slightly shrinks the button for a realistic click feel */
+}
